@@ -58,8 +58,9 @@ Include "funciones.php";
                     <div class="active item">
                         <section class="site-section site-section-light site-section-top themed-background-dark-default">
                             <div class="container">
-                                <h1 class="text-center animation-slideDown hidden-xs"><strong>A complete web solution for your awesome project</strong></h1>
-                                <h2 class="text-center animation-slideUp push hidden-xs">Bring your project to life months sooner</h2>
+                                <h1 class="text-center animation-slideDown hidden-xs"><strong>Traducción especializada</strong></h1>
+                                <h2 class="text-center animation-slideUp push hidden-xs">
+                                 Hacemos traducciones de documentos de español a inglés e inglés a español. Estos pueden ser o no certificados.</h2>
                                 <p class="text-center animation-fadeIn">
                                     <img src="img/placeholders/screenshots/promo_desktop_left.png" alt="Promo Image 1">
                                 </p>
@@ -69,8 +70,9 @@ Include "funciones.php";
                     <div class="item">
                         <section class="site-section site-section-light site-section-top themed-background-dark-fire">
                             <div class="container">
-                                <h1 class="text-center animation-fadeIn360 hidden-xs"><strong>Featuring a Powerful and Flexible layout</strong></h1>
-                                <h2 class="text-center animation-fadeIn360 push hidden-xs">Letting you focus on creating your project</h2>
+                                <h1 class="text-center animation-fadeIn360 hidden-xs"><strong>Traducciones legales</strong></h1>
+                                <h2 class="text-center animation-fadeIn360 push hidden-xs">Traducciones de documentos legales certificados por peritos
+autorizados por el Tribunal Superior de Justicia del Distrito Federal</h2>
                                 <p class="text-center animation-fadeInLeft">
                                     <img src="img/placeholders/screenshots/promo_desktop_right.png" alt="Promo Image 2">
                                 </p>
@@ -80,8 +82,8 @@ Include "funciones.php";
                     <div class="item">
                         <section class="site-section site-section-light site-section-top themed-background-dark-amethyst">
                             <div class="container">
-                                <h1 class="text-center animation-hatch hidden-xs"><strong>Fully Responsive and Retina Ready</strong></h1>
-                                <h2 class="text-center animation-hatch push hidden-xs">The UI will look great and crisp</h2>
+                                <h1 class="text-center animation-hatch hidden-xs"><strong>Subtitulos</strong></h1>
+                                <h2 class="text-center animation-hatch push hidden-xs">Envianos tu video para agregar subtitulos en español e ingles</h2>
                                 <p class="text-center animation-hatch">
                                     <img src="img/placeholders/screenshots/promo_mobile.png" alt="Promo Image 3">
                                 </p>
@@ -91,8 +93,8 @@ Include "funciones.php";
                     <div class="item">
                         <section class="site-section site-section-light site-section-top themed-background-dark-modern">
                             <div class="container">
-                                <h1 class="text-center animation-fadeInLeft hidden-xs"><strong>Tons of features are designed &amp; waiting for you</strong></h1>
-                                <h2 class="text-center animation-fadeInRight push hidden-xs">Everything you need for your project</h2>
+                                <h1 class="text-center animation-fadeInLeft hidden-xs"><strong>Interprete en el momento</strong></h1>
+                                <h2 class="text-center animation-fadeInRight push hidden-xs">¿Tienes una junta con algún extranjero y no lograste prepararte?  contáctanos</h2>
                                 <p class="text-center animation-fadeIn360">
                                     <img src="img/placeholders/screenshots/promo_tablet.png" alt="Promo Image 4">
                                 </p>

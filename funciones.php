@@ -27,7 +27,7 @@ function principalMenu(){
 
 	echo ' <div class="container">
                     <!-- Site Logo -->
-                    <a href="index.html" class="site-logo">
+                    <a href="index.php" class="site-logo">
                         <i class="gi gi-flash"></i> <strong>Traduccion</strong>ES
                     </a>
                     <!-- Site Logo -->
