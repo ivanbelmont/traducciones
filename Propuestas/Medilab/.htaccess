@@ -1,0 +1,63 @@
+<IfModule mod_rewrite.c>
+## EXPIRES CACHING ##
+RewriteEngine On
+
+##############################
+### INICIO CONFIGURACION GENERICA ###
+
+#mensajes
+
+RewriteRule ^gracias$ index.php?gracias=gracias [NC,L]
+RewriteRule ^gracias/$ index.php?gracias=gracias [NC,L]
+
+RewriteRule ^error$ index.php?error=error [NC,L]
+RewriteRule ^error/$ index.php?error=error [NC,L]
+
+#refer
+
+RewriteRule ^refer/([a-zA-Z0-9_-]+)$ index.php?refer=$1  [NC,L]
+RewriteRule ^refer/([a-zA-Z0-9_-]+)/$ index.php?refer=$1  [NC,L]
+
+RewriteRule ^refer/([a-zA-Z0-9_-]+)/gracias$ index.php?refer=$1&gracias=gracias [NC,L]
+RewriteRule ^refer/([a-zA-Z0-9_-]+)/gracias/$ index.php?refer=$1&gracias=gracias[NC,L]
+
+RewriteRule ^refer/([a-zA-Z0-9_-]+)/error$ index.php?refer=$1&error=error [NC,L]
+RewriteRule ^refer/([a-zA-Z0-9_-]+)/error/$ index.php?refer=$1&error=error [NC,L]
+
+### FIN CONFIGURACION GENERICA ###
+##############################
+
+
+### INICIO CONFIGURACIÓN karina ###
+
+RewriteRule ^karina$ index.php?persona=karina [NC,L]
+RewriteRule ^karina/$ index.php?persona=karina [NC,L]
+
+#mensajes
+
+RewriteRule ^karina/gracias$ index.php?persona=karina&gracias=gracias [NC,L]
+RewriteRule ^karina/gracias/$ index.php?persona=karina&gracias=gracias [NC,L]
+
+RewriteRule ^karina/error$ index.php?persona=karina&error=error [NC,L]
+RewriteRule ^karina/error/$ index.php?persona=karina&error=error [NC,L]
+
+#refer
+
+RewriteRule ^karina/refer/([a-zA-Z0-9_-]+)$ index.php?persona=karina&refer=$1  [NC,L]
+RewriteRule ^karina/refer/([a-zA-Z0-9_-]+)/$ index.php?persona=karina&refer=$1  [NC,L]
+
+RewriteRule ^karina/refer/([a-zA-Z0-9_-]+)/gracias$ index.php?persona=karina&refer=$1&gracias=gracias [NC,L]
+RewriteRule ^karina/refer/([a-zA-Z0-9_-]+)/gracias/$ index.php?persona=karina&refer=$1&gracias=gracias [NC,L]
+
+RewriteRule ^karina/refer/([a-zA-Z0-9_-]+)/error$ index.php?persona=karina&refer=$1&error=error [NC,L]
+RewriteRule ^karina/refer/([a-zA-Z0-9_-]+)/error/$ index.php?persona=karina&refer=$1&error=error [NC,L]
+
+### FIN CONFIGURACION santa-anita ###
+##############################
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+</IfModule>

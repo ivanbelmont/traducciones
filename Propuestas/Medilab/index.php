@@ -1,4 +1,19 @@
+
 <!DOCTYPE html>
+
+<?php
+
+if(isset($_GET['persona']))
+{
+
+$persona=$_GET['persona'];
+}
+
+else {
+	$persona="Generico";
+}
+
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -35,7 +50,7 @@
 				    </div>
 				    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
 				      <ul class="nav navbar-nav">
-				        <li class="active"><a href="#banner">Home</a></li>
+				        <li class="active"><a href="#banner">Home <?php echo $persona; ?></a></li>
 				        <li class=""><a href="#service">Services</a></li>
 				        <li class=""><a href="#about">About</a></li>
 				        <li class=""><a href="#testimonial">Testimonial</a></li>
